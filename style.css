@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f6ff;
+
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 1px #ccc;
+}
+header .left {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+header .left img {
+    margin-right: 40px;
+}
+header .right{
+    
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+header .right p{
+    color: grey;
+}
+header .right a{
+    margin-left: 40px;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    background-image: linear-gradient(269deg,#0048ff,#0096ff);
+}
+header p{
+    color: #666666;
+    margin: 0;
+}
+main {
+    padding: 10px 50px;
+    padding-top: 75px;
+    background-color: #f2f6ff;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+main p {
+    display: flex;
+    align-items: center;
+    
+}
+main p img{
+    width: 24px;
+    margin-right: 5px;
+}
+.filters button {
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.filters button:hover,
+.filters button.active{
+    background-image: linear-gradient(269deg,#0048ff,#380fdd);
+    color: rgb(235, 235, 241);
+}
+
+.posts{
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.posts .post {
+    width: 30%;
+    box-shadow: 0 5px 20px 0 rgba(red, green, blue, alpha);
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0,168,255,.3);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+}
+.posts .post img {
+    width: 100%;
+}
+.posts .post .content {
+    padding: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    background: white;
+    
+}
+
+.posts .post .content p span {
+    color: #0096ff;
+    font-family: Raleway;
+    font-weight: 500;
+}
+footer {
+    background-color: #172146;
+    height: 60px;
+}
